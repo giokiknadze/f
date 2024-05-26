@@ -1,0 +1,70 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #838CC7;
+    color: #1f2656;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+h3{
+    font-size: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+#tree{
+    position: absolute;
+    width: 40%;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.flower{
+    position: absolute;
+    z-index: -1;
+}
+
+#fl1{
+    margin-top: 13%;
+    margin-left: 75%;
+    transform: rotate(90deg);
+}
+
+#fl2{
+    margin-top: 35%;
+    margin-left: 55%;
+    transform: rotate(180deg);
+}
+
+form{
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+a{
+    color: rgb (19, 19, 231);
+    margin-left: 10px;
+}
+
+a:hover{
+    color: #1f2656;
+}
